@@ -1,0 +1,17 @@
+{
+  "name": "preload-couchdb",
+  "version": "0.0.1",
+  "description": "Populate couchDB using nano, with some predefined data to test the fuzzy search options.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "nano": "~4.1.1",
+    "express": "~3.3.4",
+    "ejs": "~0.8.4"
+  }
+}
