@@ -5,8 +5,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>CouchDB Prepopulate</title>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+         <script src="./public/couchdb.playground.js"></script>
     </head>
     <body>
         <p>CouchDB Play ground</p>
+        <ul>
+            <li><a href="#" data-request="/create_db">Create DB </a></li>
+            <li><a href="#" data-request="/design_doc">Create Design Document</a></li>
+            <li><a href="#" data-request="/populate_old">Populate Dummy Data</a></li>
+            <li><a href="#" data-request="/populate">Populate User data</a></li>
+        </ul>
+        <b>Result</b>:
+        <div class="result" style="border: 1px solid black;width:300px;height:200px;"></dev>
     </body>
 </html>
